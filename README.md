@@ -39,3 +39,7 @@ Le serveur doit retourner la page et les ressources JavaScript. Vérifier dans u
 - Les polices et toutes les ressources de la scène sont livrées localement ; aucun compte, service distant ni clé API n’est nécessaire.
 
 Les boutons de capture exportent uniquement la scène 3D, sans les panneaux d’interface. Le plein écran dépend de la prise en charge du navigateur.
+
+## Extension géographique en préparation
+
+La version affichée reste une maquette artistique. La projection métrique et les importeurs de données réelles pour une zone de 8 × 6 km sont préparés, mais l’acquisition est bloquée par les accès réseau de l’environnement. Voir [l’état de préparation et les sources nécessaires](docs/geographic-extension.md). Aucun relevé à l’échelle réelle n’est encore intégré à la scène.
