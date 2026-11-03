@@ -4,12 +4,20 @@ Maquette 3D interactive et stylisée du Vieux-Québec, construite avec Three.js 
 
 Cette interprétation artistique utilise une géographie et des proportions indicatives. Elle ne repose pas sur des données cadastrales ou photogrammétriques.
 
+## Ouvrir la maquette par double-clic
+
+Téléchargez **[maquette-quebec.html](./maquette-quebec.html)** sur votre ordinateur avec le bouton de téléchargement du fichier GitHub, puis ouvrez ce fichier dans un navigateur récent compatible WebGL. Ce fichier autonome contient le JavaScript, les styles et les polices ; il fonctionne sans serveur, sans Node.js et sans connexion Internet.
+
+GitHub affiche le code des fichiers HTML au lieu d’exécuter l’application. Il faut télécharger le fichier avant de l’ouvrir. Le fichier source `index.html` nécessite le serveur Vite décrit ci-dessous.
+
+Pour régénérer le fichier autonome à partir des sources, exécutez `npm ci` puis `npm run build`. La compilation produit aussi le dossier `dist/` pour l’hébergement Web, avec des chemins relatifs compatibles avec un sous-dossier.
+
 ## Développement
 
 Node.js 22.12+ ou 24 et npm sont requis.
 
 ```sh
-cd /workspace/maquette
+cd maquette
 npm ci
 npm run dev -- --port 5173
 ```
