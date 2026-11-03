@@ -1,8 +1,8 @@
 # Atlas · Québec
 
-Maquette 3D interactive et stylisée du Vieux-Québec, construite avec Three.js et Vite. Elle présente le Château Frontenac, la Citadelle, la Place Royale et l’Hôtel du Parlement dans un paysage miniature inspiré du cap Diamant et du Saint-Laurent.
+Projet Three.js existant, avec deux vues : un relief géographique réel de Québec sur 8 × 6 km et la miniature artistique originale du Vieux-Québec. Quatre monuments simplifiés sont repositionnés sur le relief. Le terrain Mapzen est intégré au rendu et au HTML autonome, sans exagération verticale.
 
-Cette interprétation artistique utilise une géographie et des proportions indicatives. Elle ne repose pas sur des données cadastrales ou photogrammétriques.
+**Limite actuelle :** l’acquisition OpenStreetMap renvoie HTTP 406. Les empreintes de bâtiments et les rues réelles ne sont pas intégrées. Les monuments restent indicatifs et la surface d’eau est approximative.
 
 ## Ouvrir la maquette par double-clic
 
@@ -40,6 +40,6 @@ Le serveur doit retourner la page et les ressources JavaScript. Vérifier dans u
 
 Les boutons de capture exportent uniquement la scène 3D, sans les panneaux d’interface. Le plein écran dépend de la prise en charge du navigateur.
 
-## Extension géographique en préparation
+## État géographique
 
-La version affichée reste une maquette artistique. La projection métrique et les importeurs de données réelles pour une zone de 8 × 6 km sont préparés, mais l’acquisition est bloquée par les accès réseau de l’environnement. Voir [l’état de préparation et les sources nécessaires](docs/geographic-extension.md). Aucun relevé à l’échelle réelle n’est encore intégré à la scène.
+Voir [les données intégrées, les limites et le travail restant](docs/geographic-extension.md). La scène de relief et la maquette artistique sont accessibles depuis les boutons de la vue. L’attribution Mapzen et les limites sont visibles à l’écran.

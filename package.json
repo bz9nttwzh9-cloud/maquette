@@ -9,7 +9,8 @@
     "preview": "vite preview --host 0.0.0.0",
     "test:geo": "node tests/geo.test.mjs",
     "data:city": "node scripts/import-city.mjs --download",
-    "data:terrain": "node scripts/import-terrain.mjs --download"
+    "data:terrain": "node scripts/import-terrain.mjs --download",
+    "test:browser": "node tests/browser.test.mjs"
   },
   "dependencies": {
     "@fontsource-variable/dm-sans": "^5.3.0",
@@ -18,6 +19,7 @@
     "three": "^0.180.0"
   },
   "devDependencies": {
+    "playwright": "^1.64.1",
     "pngjs": "^7.0.0",
     "vite": "^7.1.0"
   }
